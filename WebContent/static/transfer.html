@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Mongo Demo</title>
+<style type="text/css">
+body {
+	background-image: url('http://crunchify.com/bg.png');
+}
+</style>
+</head>
+
+<body>
+	Transfer Money
+	<p>
+	<form method="post" action="../transfer/transfer.jsp">
+		<table>
+			<tr>
+				<td class="label">From Account Id :</td>
+				<td><input type="text" name="from"></td>
+			</tr>
+			<tr>
+				<td class="label">To Account Id :</td>
+				<td><input type="text" name="to"></td>
+			</tr>
+			<tr>
+				<td class="label">Initial Amount</td>
+				<td><input type="text" name="amount"></td>
+
+			</tr>
+
+		</table>
+
+		<input type="submit">
+	</form>
+	
+	<form method="get" action="/">
+		<input type="button" name="cancel">
+	</form>
+	
+</body>
+</html>
+
